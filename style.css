@@ -1,77 +1,77 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    background-color: #504de6;
-  }
-  
-  nav {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .przycNav {
-    margin: 0px;
-    display: inline-block;
-    background-color: #3455ab;
-    border: solid black 1px;
-    width: 20%;
-    height: 50px;
-    text-align: center;
-    overflow: hidden;
-  }
-  
-  .przycNav:first-of-type {
-    margin-left: 19%;
-  }
-  
-  .przycNav > a {
-    text-align: center;
-    align-self: auto;
-    font-size: 45px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #ffd706;
-    font-family: sans-serif;
-    -webkit-text-stroke: 2px black;
-  }
-  
-  .powitanie {
-    margin-top: 10%;
-    text-align: center;
-    align-self: auto;
-    font-size: 45px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #ffd706;
-    font-family: sans-serif;
-    -webkit-text-stroke: 2px black;
-  }
-  
-  input {
-    margin-top: 25px;
-    width: 25%;
-    height: 40px;
-    font-size: 30px;
-    -webkit-text-stroke: 0px;
-    text-align: center;
-  }
-  
-  .przycRozp {
-    width: 20%;
-    height: 100px;
-    background-color: #ffd706;
-    border: 1px solid black;
-    border-radius: 8px;
-    align-self: center;
-    margin-left: 40%;
-    margin-top: 10%;
-    font-weight: 500;
-    font-size: 40px;
-  }
-  
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #504de6;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.przycNav {
+  margin: 0px;
+  display: inline-block;
+  background-color: #3455ab;
+  border: solid black 1px;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.przycNav:first-of-type {
+  margin-left: 19%;
+}
+
+.przycNav > a {
+  text-align: center;
+  align-self: auto;
+  font-size: 45px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffd706;
+  font-family: sans-serif;
+  -webkit-text-stroke: 2px black;
+}
+
+.powitanie {
+  margin-top: 10%;
+  text-align: center;
+  align-self: auto;
+  font-size: 45px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffd706;
+  font-family: sans-serif;
+  -webkit-text-stroke: 2px black;
+}
+
+input {
+  margin-top: 25px;
+  width: 25%;
+  height: 40px;
+  font-size: 30px;
+  -webkit-text-stroke: 0px;
+  text-align: center;
+}
+
+#przycRozp {
+  width: 20%;
+  height: 100px;
+  background-color: #ffd706;
+  border: 1px solid black;
+  border-radius: 8px;
+  align-self: center;
+  margin-left: 40%;
+  margin-top: 10%;
+  font-weight: 500;
+  font-size: 40px;
+  cursor: pointer;
+}
