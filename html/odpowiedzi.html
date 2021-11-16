@@ -20,15 +20,10 @@
       </div>
     </nav>
 
-    <div class="tekstPowit">twoje odpowiedzi</div>
+    <div id="tuImiea" class="tekstPowit"></div>
+    <div id="ilePkt" class="tekstPowit"></div>
+    <div id="bledneOdp" class="tekstPowit">Błędnie odpowiedziałeś na pytania: </div>
 
-    <script type="text/javascript">
-      document.body.innerHTML +=
-        sessionStorage.imieGracza +
-        "<--imie :::::::: " +
-        sessionStorage.iloscPkt +
-        "<--pkt :::::::::::: ktore bledne liczac od 0 w stringu-->" +
-        sessionStorage.bledneOdp;
-    </script>
+    <script src="../javascript/wypisOdp.js"></script>
   </body>
 </html>
