@@ -39,8 +39,8 @@ if (sessionStorage.pulaPyt == 1) {
     {
       pytanie: "Pytanie 1, HTML jest tworzony przez",
       odpPopr: 3,
-      odpPierw: "Odpowiedz 1",
-      odpDrug: "Odpowiedz 2",
+      odpPierw: "Adobe",
+      odpDrug: "ECMAScript",
       odpTrzec: "WHATWG"
     },
 
