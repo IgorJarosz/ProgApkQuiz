@@ -76,6 +76,10 @@ input {
   cursor: pointer;
 }
 
+#przycRozp:hover {
+  background-color: #ffeb85;
+}
+
 .tekstPowit {
   margin-top: 5%;
   text-align: center;
@@ -100,4 +104,8 @@ input {
   font-weight: 500;
   font-size: 2vw;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffeb85;
 }

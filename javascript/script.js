@@ -6,6 +6,7 @@ przycRozp.addEventListener("click", function () { //przypisuje wartosci = 0 aby 
   sessionStorage.iloscPkt = 0;
   sessionStorage.aktualnePytanie = 0;
   sessionStorage.bledneOdp = "";
+  sessionStorage.pulaPyt = 0;
   if (imieGracza != "")
     window.location.replace("index2.html")
   else
