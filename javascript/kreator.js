@@ -1,8 +1,20 @@
-const klik = document.querySelector(".przyciskDefault")
+const poprPierw = document.querySelector("#przycOdpPierw")
+const poprDrug = document.querySelector("#przycOdpDrug")
+const poprTrzec = document.querySelector("#przycOdpTrzec")
+const przycZap = document.querySelector("#przycZap")
 
-klik.addEventListener("click", function () {
-    sessionStorage.tworzPytanie = document.querySelector("#tworzonePyt").value;
-    sessionStorage.tworzOdpPierw = document.querySelector("#tekstOdpPierw").value;
-    sessionStorage.tworzOdpDrug = document.querySelector("#tekstOdpDrug").value;
-    sessionStorage.tworzOdpTrzec = document.querySelector("#tekstOdpTrzec").value;
+poprPierw.addEventListener("click", function () {
+    sessionStorage.tworzPoprOdp = 1;
+})
+
+poprDrug.addEventListener("click", function () {
+    sessionStorage.tworzPoprOdp = 2;
+})
+
+poprTrzec.addEventListener("click", function () {
+    sessionStorage.tworzPoprOdp = 3;
+})
+
+przycZap.addEventListener("click", function () {
+    document.querySelector("#containerNaTekst").innerHTML = "Utworzono nowe pytanie z poprawną odp nr " + sessionStorage.tworzPoprOdp;
 })

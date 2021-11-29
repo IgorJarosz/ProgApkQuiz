@@ -1,7 +1,7 @@
 if (sessionStorage.pulaPyt == 1) {
   pytania = [ //deklaruje sobie tutaj pytania, w przyszloscie trzeba rozszerzyc pule pytan oraz zrobic poziomy trudnosci albo kategorie
     {
-      pytanie: "Pytanie 1, kiedy został utworzony JavaScript",
+      pytanie: "Pytanie 1, kiedy powstało pierwsze wydanie JavaScript",
       odpPopr: 3,
       odpPierw: "23 kwietnia 1994",
       odpDrug: "15 stycznia 1996",
@@ -73,27 +73,35 @@ if (sessionStorage.pulaPyt == 1) {
 } else if (sessionStorage.pulaPyt == 3) {
   pytania = [ //deklaruje sobie tutaj pytania, w przyszloscie trzeba rozszerzyc pule pytan oraz zrobic poziomy trudnosci albo kategorie
     {
-      pytanie: "Pytanie 1, poprawna odp nr 3",
+      pytanie: "Pytanie 1, CSS jest rozwijany przez",
       odpPopr: 3,
-      odpPierw: "Odpowiedz 1",
-      odpDrug: "Odpowiedz 2",
-      odpTrzec: "Odpowiedz 3"
+      odpPierw: "GOOGLE",
+      odpDrug: "WHATWG",
+      odpTrzec: "W3C"
     },
 
     {
-      pytanie: "Pytanie 2, poprawna odp nr 2",
+      pytanie: "Pytanie 2, pierwsze wydanie CSS'a pochodzi z roku",
       odpPopr: 2,
-      odpPierw: "Odpowiedz 1",
-      odpDrug: "Odpowiedz 2",
-      odpTrzec: "Odpowiedz 3"
+      odpPierw: "1994",
+      odpDrug: "1996",
+      odpTrzec: "1998"
     },
 
     {
-      pytanie: "Pytanie 3, poprawna odp nr 1",
+      pytanie: "Pytanie 3, selektor '#' w CSS'ie odpowiada za",
       odpPopr: 1,
-      odpPierw: "Odpowiedz 1",
-      odpDrug: "Odpowiedz 2",
-      odpTrzec: "Odpowiedz 3"
+      odpPierw: "id",
+      odpDrug: "klasę",
+      odpTrzec: "znacznik"
+    },
+
+    {
+      pytanie: "Pytanie 4, selektor '.' w CSS'ie odpowiada za",
+      odpPopr: 2,
+      odpPierw: "id",
+      odpDrug: "klasę",
+      odpTrzec: "znacznik"
     },
 
   ]
