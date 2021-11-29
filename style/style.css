@@ -24,13 +24,6 @@ nav {
   height: 50px;
   text-align: center;
   overflow: hidden;
-}
-
-.przycNav:first-of-type {
-  margin-left: 19%;
-}
-
-.przycNav>a {
   text-align: center;
   align-self: auto;
   font-size: 2.5vw;
@@ -40,6 +33,12 @@ nav {
   font-family: sans-serif;
   -webkit-text-stroke: 2px black;
 }
+
+.przycNav:first-of-type {
+  margin-left: 19%;
+}
+
+
 
 .powitanie {
   margin-top: 10%;
@@ -108,4 +107,99 @@ input {
 
 button:hover {
   background-color: #ffeb85;
+}
+
+button>input {
+  width: 90%;
+}
+
+@media screen and (max-width: 900px) {
+  .przycNav {
+
+    margin-top: 0px;
+    display: inline-block;
+    background-color: #3455ab;
+    border: solid black 1px;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+    align-self: auto;
+    font-size: 4.5vw;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffd706;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.2vw black;
+  }
+
+  .przycNav:first-of-type {
+    margin-left: 5%;
+  }
+
+  #przycRozp {
+    width: 30%;
+    height: 100px;
+    background-color: #ffd706;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-self: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-weight: 500;
+    font-size: 3vw;
+    cursor: pointer;
+  }
+
+  .przyciskDefault {
+    width: 45%;
+    height: 100px;
+    background-color: #ffd706;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-self: center;
+    margin-left: 27.5%;
+    margin-top: 10%;
+    font-weight: 500;
+    font-size: 4vw;
+    cursor: pointer;
+  }
+
+  input {
+    margin-top: 25px;
+    width: 45%;
+    height: 40px;
+    font-size: 4vw;
+    -webkit-text-stroke: 0px;
+    text-align: center;
+  }
+
+  .przycNav>div {
+    margin-top: 10%;
+  }
+
+  .powitanie {
+    margin-top: 10%;
+    text-align: center;
+    align-self: auto;
+    font-size: 4vw;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffd706;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.2vw black;
+  }
+
+  .tekstPowit {
+    margin-top: 5%;
+    text-align: center;
+    align-self: auto;
+    font-size: 4vw;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffd706;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.2vw black;
+  }
 }
