@@ -105,12 +105,27 @@ input {
   cursor: pointer;
 }
 
+
 button:hover {
   background-color: #ffeb85;
 }
 
 button>input {
   width: 90%;
+}
+
+#przycZap {
+  width: 20%;
+  height: 100px;
+  background-color: #ffd706;
+  border: 1px solid black;
+  border-radius: 8px;
+  align-self: center;
+  margin-left: 40%;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 2vw;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
@@ -201,5 +216,20 @@ button>input {
     color: #ffd706;
     font-family: sans-serif;
     -webkit-text-stroke: 0.2vw black;
+  }
+
+  #przycZap {
+    width: 30%;
+    height: 100px;
+    background-color: #ffd706;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-self: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-weight: 500;
+    font-size: 3vw;
+    cursor: pointer;
+    margin-bottom: 10%;
   }
 }
